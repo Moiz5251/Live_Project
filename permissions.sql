@@ -117,6 +117,25 @@ INSERT INTO `permissions` (`id`, `name`, `guard_name`, `created_at`, `updated_at
 (93, 'coupon.delete', 'web', NULL, NULL),
 (94, 'notification.send.vendor', 'web', NULL, NULL),
 (95, 'notification.send.customer', 'web', NULL, NULL);
+(77, 'vendor.details', 'web', NULL, NULL),
+(78, 'vendor.view', 'web', NULL, NULL),
+(79, 'vendor.edit', 'web', NULL, NULL),
+(80, 'vendor.delete', 'web', NULL, NULL),
+(81, 'service.attributes', 'web', NULL, NULL),
+(82, 'slot.create', 'web', NULL, NULL),
+(83, 'slot.edit', 'web', NULL, NULL),
+(84, 'slot.delete', 'web', NULL, NULL),
+(85, 'attribute.value', 'web', NULL, NULL),
+(86, 'booking.draf', 'web', NULL, NULL),
+(87, 'booking.vendor.change', 'web', NULL, NULL),
+(88, 'booking.view', 'web', NULL, NULL),
+(89, 'booking.delete', 'web', NULL, NULL),
+(90, 'booking.cancel', 'web', NULL, NULL),
+(91, 'coupon.create', 'web', NULL, NULL),
+(92, 'coupon.change.status', 'web', NULL, NULL),
+(93, 'coupon.delete', 'web', NULL, NULL),
+(94, 'notification.send.vendor', 'web', NULL, NULL),
+(95, 'notification.send.customer', 'web', NULL, NULL);
 
 --
 -- Indexes for dumped tables
